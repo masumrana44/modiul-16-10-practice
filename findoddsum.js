@@ -44,7 +44,7 @@
 
 
 // function getOddNumber(numbers) {
-//    const oddNumber=[]
+//     const oddNumber = [];
 //     for (i = 0; i < numbers.length; i++){
 //         const index = i;
 //         const element = numbers[index];
@@ -61,3 +61,24 @@
 // const oddNumber = getOddNumber(meraNumber);
 // console.log(oddNumber);
 // getOddNumber(meraNumber);
+
+
+function getLeapYear(leapYearArray) {
+    const leapYear = [];
+    for (i = 0; i < leapYearArray.length; i++){
+        const index = i;
+        const element = leapYearArray[index];
+        if (element % 4 == 0) {
+            console.log()
+            leapYear.push(element)
+        }
+         
+        
+    }
+    return leapYear;
+}
+    
+
+const leapYear = getLeapYear(2023, 2024, 2025, 2028, 2030);
+console.log(leapYear);
+
